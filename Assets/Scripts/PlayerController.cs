@@ -7,13 +7,17 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
     private float movementInputDir;
+    private float dashTimeLeft;
+    private float lastDash = -100f;
 
     private bool isFacingRight = true;
     private bool isWalking;
     private bool isGrounded;
     private bool canJump;
+    private bool canMove;
     private bool isTouchingWall;
     private bool isWallSlide;
+    private bool isDashing;
 
     private int jumpsLeft;
     private int dirFacing = 1;
@@ -26,6 +30,9 @@ public class PlayerController : MonoBehaviour
     public float wallSlideSpeed;
     public float varJumpHeightMultiplier = 0.5f;
     public float wallJumpForce;
+    public float dashSpeed;
+    public float dashTime;
+    public float dashCooldown;
     public int jumpNum = 1;
 
     public LayerMask whatIsGround;
@@ -48,6 +55,7 @@ public class PlayerController : MonoBehaviour
         UpdateAnimations();
         CheckIfCanJump();
         CheckIfWallSlide();
+        CheckDash();
     }
 
     void FixedUpdate()
@@ -66,6 +74,26 @@ public class PlayerController : MonoBehaviour
         else
         {
             isWallSlide = false;
+        }
+    }
+
+    private void CheckDash()
+    {
+        if(isDashing)
+        {
+            if(dashTimeLeft > 0)
+            {
+                //canJump = false;
+                canMove = false;
+                rb.velocity = new Vector2(dashSpeed * dirFacing, 0);
+                dashTimeLeft -= Time.deltaTime;
+            }
+        }
+        if(dashTimeLeft <= 0 || isTouchingWall)
+        {
+            isDashing = false;
+            //canJump = true;
+            canMove = true;
         }
     }
 
@@ -136,16 +164,34 @@ public class PlayerController : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * varJumpHeightMultiplier);
         }
 
+        //Dash Addition
+        if(Input.GetKeyDown(KeyCode.LeftShift) && isWalking)
+        {
+            // Maybe works better for a teleport
+            //rb.transform.position=new Vector2(transform. position.x + DashDist,transform.position.y);
+            if(Time.time >= (lastDash + dashCooldown))
+            {
+                AttemptDash();
+            }
+        }
+
+    }
+
+    private void AttemptDash()
+    {
+        isDashing = true;
+        dashTimeLeft = dashTime;
+        lastDash = Time.time;
     }
 
     private void Movement()
     {
-        if(!isWallSlide)
+        if(!isWallSlide && canMove)
         {
             rb.velocity = new Vector2(movementSpeed * movementInputDir, rb.velocity.y);
         }
 
-        if(isWallSlide)
+        if(isWallSlide && canMove)
         {
             if(rb.velocity.y < -wallSlideSpeed)
             {

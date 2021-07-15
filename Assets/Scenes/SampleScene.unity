@@ -6438,7 +6438,7 @@ GameObject:
   - component: {fileID: 1359468032}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6577,13 +6577,14 @@ MonoBehaviour:
   wallCheckDistance: 0.5
   wallSlideSpeed: 4
   varJumpHeightMultiplier: 0.5
-  wallHopForce: 0
-  wallJumpForce: 0
+  wallJumpForce: 16
+  dashSpeed: 30
+  dashTime: 0.2
+  dashCooldown: 2
   jumpNum: 1
   whatIsGround:
     serializedVersion: 2
     m_Bits: 256
-  wallHopDir: {x: 100, y: 100}
   wallJumpDir: {x: 1, y: 4}
 --- !u!95 &1359468032
 Animator:
