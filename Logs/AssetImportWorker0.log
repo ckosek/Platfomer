@@ -15,11 +15,11 @@ C:/Users/Chase/Desktop/Game Design/Untitled Platformer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52218
+49426
 Successfully changed project path to: C:/Users/Chase/Desktop/Game Design/Untitled Platformer
 C:/Users/Chase/Desktop/Game Design/Untitled Platformer
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 1466.81 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 51.65 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,80 +35,1301 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012689 seconds.
+Registered in 0.003052 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 156.46 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 51.81 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.847 seconds
+- Completed reload, in  1.667 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001461 seconds.
+Registered in 0.001686 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 61.75 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 47.80 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.234 seconds
+- Completed reload, in  1.253 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1789 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 84.4 MB.
-System memory in use after: 84.3 MB.
+System memory in use after: 84.4 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2230.
-Total: 3.787900 ms (FindLiveObjects: 0.355500 ms CreateObjectMapping: 0.156700 ms MarkObjects: 3.092400 ms  DeleteObjects: 0.181400 ms)
+Total: 4.186600 ms (FindLiveObjects: 0.424100 ms CreateObjectMapping: 0.151800 ms MarkObjects: 3.398700 ms  DeleteObjects: 0.209800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/herochar sprites(new)/herochar_jump_double_anim_strip_3.png
-  artifactKey: Guid(6c39f36c0170f964fb0e51737553aad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/herochar sprites(new)/herochar_jump_double_anim_strip_3.png using Guid(6c39f36c0170f964fb0e51737553aad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456ac556c46b75a5586fa52d847bdb27') in 0.250633 seconds
-  Import took 0.256112 seconds .
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/herochar sprites(new)/herochar_sword_attack_anim_strip_4.png
+  artifactKey: Guid(f2c4b0ecadf8ef14e9434bdf4571d71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/herochar sprites(new)/herochar_sword_attack_anim_strip_4.png using Guid(f2c4b0ecadf8ef14e9434bdf4571d71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f42dc10160e8b24fd037737e6dbe039') in 0.228198 seconds
+  Import took 0.232842 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.016817 seconds.
-  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/herochar sprites(new)/herochar_jump_double_anim_strip_3.png
-  artifactKey: Guid(6c39f36c0170f964fb0e51737553aad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/herochar sprites(new)/herochar_jump_double_anim_strip_3.png using Guid(6c39f36c0170f964fb0e51737553aad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456ac556c46b75a5586fa52d847bdb27') in 0.020077 seconds
-  Import took 0.028853 seconds .
+  Time since last request: 29.010683 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/herochar sprites(new)/herochar_sword_attack_anim_strip_4.png
+  artifactKey: Guid(f2c4b0ecadf8ef14e9434bdf4571d71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/herochar sprites(new)/herochar_sword_attack_anim_strip_4.png using Guid(f2c4b0ecadf8ef14e9434bdf4571d71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db566f9d7d3024dcd3a2d570dd8509c') in 0.090162 seconds
+  Import took 0.097589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.744431 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/herochar sprites(new)/herochar_attack_anim_strip_4(new).png
+  artifactKey: Guid(4453bc4669d678b4bb9686abbf3fcfe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/herochar sprites(new)/herochar_attack_anim_strip_4(new).png using Guid(4453bc4669d678b4bb9686abbf3fcfe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef1689b81e5706d63d5e9cbcb820aa8') in 0.028927 seconds
+  Import took 0.047807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.162327 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/herochar sprites(new)/herochar_attack_anim_strip_4(new).png
+  artifactKey: Guid(4453bc4669d678b4bb9686abbf3fcfe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/herochar sprites(new)/herochar_attack_anim_strip_4(new).png using Guid(4453bc4669d678b4bb9686abbf3fcfe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03e8516451483102586083163c29f87') in 0.036700 seconds
+  Import took 0.042392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 330.614233 seconds.
+  path: Assets/Animations/Animation Controllers/Player Controller.controller
+  artifactKey: Guid(daf6be0f54066c74f8f2e3fa568a058c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Animation Controllers/Player Controller.controller using Guid(daf6be0f54066c74f8f2e3fa568a058c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8330cd22b713aa8a2e84e47586e7b48a') in 0.097392 seconds
+  Import took 0.120868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 315.666096 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(6fb4aaa8dbb68c5499813792393b6798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(6fb4aaa8dbb68c5499813792393b6798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f3dc33fa9a96a3861e6b41b357cf40') in 0.026623 seconds
+  Import took 0.031672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.400850 seconds.
+  path: Assets/Scripts/PlayerCombatController.cs
+  artifactKey: Guid(25831b6f6b3fd774bbff94a890e995bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerCombatController.cs using Guid(25831b6f6b3fd774bbff94a890e995bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e81847087833a38335079e89bd2ef390') in 0.030787 seconds
+  Import took 0.064435 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001400 seconds.
+Registered in 0.001372 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.420 seconds
+- Completed reload, in  1.204 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.5 MB.
+System memory in use after: 87.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2244.
+Total: 4.461900 ms (FindLiveObjects: 0.541100 ms CreateObjectMapping: 0.188300 ms MarkObjects: 3.568000 ms  DeleteObjects: 0.161800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001390 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.514 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2247.
+Total: 4.106200 ms (FindLiveObjects: 0.350200 ms CreateObjectMapping: 0.218000 ms MarkObjects: 3.365400 ms  DeleteObjects: 0.169900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001410 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.144 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.8 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2250.
+Total: 3.632700 ms (FindLiveObjects: 0.338600 ms CreateObjectMapping: 0.151800 ms MarkObjects: 2.972100 ms  DeleteObjects: 0.168000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001374 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.260 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 87.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2253.
+Total: 4.126300 ms (FindLiveObjects: 0.414100 ms CreateObjectMapping: 0.185800 ms MarkObjects: 3.291800 ms  DeleteObjects: 0.231700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1948.833998 seconds.
+  path: Assets/Animations/Animation Controllers/Player Controller.controller
+  artifactKey: Guid(daf6be0f54066c74f8f2e3fa568a058c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Animation Controllers/Player Controller.controller using Guid(daf6be0f54066c74f8f2e3fa568a058c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610b357e14b2fd27015697353f9a7c8f') in 0.035621 seconds
+  Import took 0.046623 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001875 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.548 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2256.
+Total: 3.339300 ms (FindLiveObjects: 0.385400 ms CreateObjectMapping: 0.134100 ms MarkObjects: 2.651500 ms  DeleteObjects: 0.165900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001350 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.801 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.1 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2259.
+Total: 4.956200 ms (FindLiveObjects: 0.450800 ms CreateObjectMapping: 0.329500 ms MarkObjects: 3.976200 ms  DeleteObjects: 0.195800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001381 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.185 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2262.
+Total: 3.599600 ms (FindLiveObjects: 0.385900 ms CreateObjectMapping: 0.143100 ms MarkObjects: 2.880700 ms  DeleteObjects: 0.187700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001401 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.145 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2265.
+Total: 3.844600 ms (FindLiveObjects: 0.366100 ms CreateObjectMapping: 0.213700 ms MarkObjects: 3.054100 ms  DeleteObjects: 0.207800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001504 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.456 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.4 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2268.
+Total: 4.065500 ms (FindLiveObjects: 0.374500 ms CreateObjectMapping: 0.164500 ms MarkObjects: 3.352700 ms  DeleteObjects: 0.171400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 422.947393 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/antidote_potion.png
+  artifactKey: Guid(947b9be99ece8334289e49170a68dc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/antidote_potion.png using Guid(947b9be99ece8334289e49170a68dc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8804e0a202fc2f4c901af2a600870c0e') in 0.149758 seconds
+  Import took 0.156637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/orb_collected_anim_strip_5.png
+  artifactKey: Guid(056f7229f6f5703448ed277a8a8ae4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/orb_collected_anim_strip_5.png using Guid(056f7229f6f5703448ed277a8a8ae4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889f6ac9c905ca16f4b684624f3588c8') in 0.073506 seconds
+  Import took 0.079274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/tiki_torch_props.gif
+  artifactKey: Guid(df0dc86bde1753e4aa0bfed724f34ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/tiki_torch_props.gif using Guid(df0dc86bde1753e4aa0bfed724f34ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2dc9faa92233a585c4d255a6891bbf') in 0.034545 seconds
+  Import took 0.040033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/spikes_trap.png
+  artifactKey: Guid(df62c77122e4a224ea78370e7b9c238e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/spikes_trap.png using Guid(df62c77122e4a224ea78370e7b9c238e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f193dcc8f00daf3594bb10b5652a0d0b') in 0.056997 seconds
+  Import took 0.080719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/trap_spikes_anim.gif
+  artifactKey: Guid(121b187a69d4b87438d80df8538ffabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/trap_spikes_anim.gif using Guid(121b187a69d4b87438d80df8538ffabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e785194008f936e5c130b0c4797a8d') in 0.068665 seconds
+  Import took 0.076013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/strange_door_closed_anim.gif
+  artifactKey: Guid(3503ffc81f5356b4fbdc9bf019e81680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/strange_door_closed_anim.gif using Guid(3503ffc81f5356b4fbdc9bf019e81680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51e50503f613ca4918a65a9840064c8') in 0.060614 seconds
+  Import took 0.070026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/strange_door_opening_anim_strip_14.png
+  artifactKey: Guid(9c0d88233cf151845aabc80ac352d2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/strange_door_opening_anim_strip_14.png using Guid(9c0d88233cf151845aabc80ac352d2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69b8cf3dd5f5170d740284538cf8237') in 0.097100 seconds
+  Import took 0.101789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/bomb_thrown_anim_strip_3.png
+  artifactKey: Guid(f9d04397349b7424ca1ff963ef190e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/bomb_thrown_anim_strip_3.png using Guid(f9d04397349b7424ca1ff963ef190e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866f9ed289e012b6b3f3ab2b2735cf8f') in 0.059639 seconds
+  Import took 0.065111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/coin_pickup_anim.gif
+  artifactKey: Guid(229d1582320647e448e4a0b596da1a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/coin_pickup_anim.gif using Guid(229d1582320647e448e4a0b596da1a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78c82b87fb3cb412206cb23696d48eb') in 0.057875 seconds
+  Import took 0.062449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/vase_breaking_anim.gif
+  artifactKey: Guid(e52e203a5124f6c43a4d611c47d47e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/vase_breaking_anim.gif using Guid(e52e203a5124f6c43a4d611c47d47e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615158610df2a9bd3854ce5144393e56') in 0.058290 seconds
+  Import took 0.062204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/loot_box_anim.gif
+  artifactKey: Guid(caa888437bd4f074f8cd718b2109d0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/loot_box_anim.gif using Guid(caa888437bd4f074f8cd718b2109d0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa02359af4262900d6e15c814597e25e') in 0.039266 seconds
+  Import took 0.063289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/orb_collected_anim.gif
+  artifactKey: Guid(0200413ff0d75d24dacc32b43f0a6765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/orb_collected_anim.gif using Guid(0200413ff0d75d24dacc32b43f0a6765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cecd24ca5de37bbefceb63caa5e19dd') in 0.057411 seconds
+  Import took 0.061628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/tiki_torch_props_strip_12.png
+  artifactKey: Guid(93a57461089be4541bb89e2f10d27556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/tiki_torch_props_strip_12.png using Guid(93a57461089be4541bb89e2f10d27556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d884d21f46e7b7f8acc4b40f5caff8') in 0.060982 seconds
+  Import took 0.064899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/explosion_anim.gif
+  artifactKey: Guid(0d96b59352972774ca5a9df911c912f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/explosion_anim.gif using Guid(0d96b59352972774ca5a9df911c912f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851ac5c9cfc79839214a0d4b4d973d2f') in 0.049622 seconds
+  Import took 0.054689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/loot_box_anim_strip_12.png
+  artifactKey: Guid(ef70f4064638a744984c94553081f3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/loot_box_anim_strip_12.png using Guid(ef70f4064638a744984c94553081f3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53614fda2ab1e87f4319cdbc84f8682') in 0.042532 seconds
+  Import took 0.047587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/trap_suspended_anim.gif
+  artifactKey: Guid(e04aa958936df834892b7c7c31ed08b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/trap_suspended_anim.gif using Guid(e04aa958936df834892b7c7c31ed08b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7eb0220ce562382aa268cbc2ae7ab1c') in 0.092605 seconds
+  Import took 0.096905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/coin_anim.gif
+  artifactKey: Guid(eedc30bf1ee591d45900e2761efeb4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/coin_anim.gif using Guid(eedc30bf1ee591d45900e2761efeb4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42682dbf73bdb0ad45fefed33a555ff') in 0.056503 seconds
+  Import took 0.063021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/buttom_pressed.png
+  artifactKey: Guid(183c86ac8e833b649ac40f63f1a936db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/buttom_pressed.png using Guid(183c86ac8e833b649ac40f63f1a936db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5983b1f5221316d691030e2cf2465244') in 0.068007 seconds
+  Import took 0.074040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/save_point_anim.gif
+  artifactKey: Guid(ac3977a64ee32d8428b8795df78a01c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/save_point_anim.gif using Guid(ac3977a64ee32d8428b8795df78a01c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a205b1da986e0ae139c77fcd854f50') in 0.152121 seconds
+  Import took 0.156860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/wood_slab_left.png
+  artifactKey: Guid(c98bf68e3aa89b44cbefd333022994b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/wood_slab_left.png using Guid(c98bf68e3aa89b44cbefd333022994b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f2b9053b21dc0be9a78f70ca630d28') in 0.117321 seconds
+  Import took 0.123686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/bigflowers_props.png
+  artifactKey: Guid(20775ddefd3eb1943b37665543fa2f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/bigflowers_props.png using Guid(20775ddefd3eb1943b37665543fa2f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9320200739d9aeee31be11c9d9a2f5a') in 0.108226 seconds
+  Import took 0.113600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/strange_door_opening_anim.gif
+  artifactKey: Guid(76de1a86b46edc04c8400aa6aeabadd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/strange_door_opening_anim.gif using Guid(76de1a86b46edc04c8400aa6aeabadd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec84d644249d4e1cd64e8e287cc38d3') in 0.080471 seconds
+  Import took 0.087194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/bomb_on_ground_anim.gif
+  artifactKey: Guid(bb06fba0de7ac8b46888e09ba59e72e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/bomb_on_ground_anim.gif using Guid(bb06fba0de7ac8b46888e09ba59e72e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab4930672705ca6f6d237952d471cd0') in 0.057139 seconds
+  Import took 0.062552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000561 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/apple_item.png
+  artifactKey: Guid(b44fb95ea491d644aa01feda329e07c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/apple_item.png using Guid(b44fb95ea491d644aa01feda329e07c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d10cf1094c08e7761f9fd4e9fbc3d6') in 0.095475 seconds
+  Import took 0.100184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/meat_item.png
+  artifactKey: Guid(db7f2aea287cea547913ade6a971e925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/meat_item.png using Guid(db7f2aea287cea547913ade6a971e925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a238efefdf2b5c6fddc5504050931ba8') in 0.053359 seconds
+  Import took 0.057558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/wood_slab_middle.png
+  artifactKey: Guid(cd26932293125f54b995e31b33fc4111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/wood_slab_middle.png using Guid(cd26932293125f54b995e31b33fc4111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc20885621725adffb402c5d55a7ec16') in 0.055977 seconds
+  Import took 0.059685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/door.png
+  artifactKey: Guid(be8bf2034b220944db3a79a322c8dd72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/door.png using Guid(be8bf2034b220944db3a79a322c8dd72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8caa32dce016810750a6c02b42bf9b59') in 0.041077 seconds
+  Import took 0.045452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/save_point_saving_anim.gif
+  artifactKey: Guid(1892ede3eb7760540ad4a4196f1b3728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/save_point_saving_anim.gif using Guid(1892ede3eb7760540ad4a4196f1b3728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a107a1f67ccfff5a05ac8aca001e9c') in 0.055272 seconds
+  Import took 0.059774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/flowers_props.asset
+  artifactKey: Guid(2868d6c9f29534142ba587e0682e11d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/flowers_props.asset using Guid(2868d6c9f29534142ba587e0682e11d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0da4fd060fd919d3399e3fda01fd3d4') in 0.052011 seconds
+  Import took 0.055759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/orb.png
+  artifactKey: Guid(24eb19f229954a646a87f30f6f115a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/orb.png using Guid(24eb19f229954a646a87f30f6f115a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6c6f9d45f9d2fe6a64103ea0ca30df') in 0.044717 seconds
+  Import took 0.048675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/root_props.png
+  artifactKey: Guid(042544051ce2a2643ae18799ec9211eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/root_props.png using Guid(042544051ce2a2643ae18799ec9211eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26df694c1c650077c6847127594b6cd7') in 0.040181 seconds
+  Import took 0.044774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/vase.png
+  artifactKey: Guid(82512c784d570bd4c9ac8d94ba27eb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/vase.png using Guid(82512c784d570bd4c9ac8d94ba27eb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ccc4cef00f770eea624aab477b802b8') in 0.050654 seconds
+  Import took 0.055769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/bomb_thrown_anim.gif
+  artifactKey: Guid(6a9599e0b4abde64f8e4d71931c30015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/bomb_thrown_anim.gif using Guid(6a9599e0b4abde64f8e4d71931c30015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0536c2962085af880bb07f734feb7054') in 0.045072 seconds
+  Import took 0.050099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/spikes_trap_hit_wall_dust_effect.gif
+  artifactKey: Guid(d8cebe8b7fb63bd4ca3858b20a616366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/spikes_trap_hit_wall_dust_effect.gif using Guid(d8cebe8b7fb63bd4ca3858b20a616366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65869d42ac9ab510210b74da5d434a0') in 0.043777 seconds
+  Import took 0.048583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/arrow_plate_right.asset
+  artifactKey: Guid(254f7c487a103dd48b22ea4ebc81b1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/arrow_plate_right.asset using Guid(254f7c487a103dd48b22ea4ebc81b1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed635f9642cf5b85e22faaebfd04915c') in 0.037453 seconds
+  Import took 0.041648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/arrow_plate_left.png
+  artifactKey: Guid(c68b37e64f0d06b419d3b5138f3e52d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/arrow_plate_left.png using Guid(c68b37e64f0d06b419d3b5138f3e52d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35cb82b40a758230126f6f51ae49b09') in 0.064421 seconds
+  Import took 0.069111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/wooden_plate.png
+  artifactKey: Guid(d1bbd7abc019df742901c54186f6b929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/wooden_plate.png using Guid(d1bbd7abc019df742901c54186f6b929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d2636dfc81b881a625b93364159ee9') in 0.098740 seconds
+  Import took 0.102721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/buttom.png
+  artifactKey: Guid(76ea4907532e4bd4f8806c30630075a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/buttom.png using Guid(76ea4907532e4bd4f8806c30630075a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5d68f40dc73de2b33f0c50ea21d182') in 0.121294 seconds
+  Import took 0.134113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001195 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/save_point_anim_strip_9.png
+  artifactKey: Guid(2bc74288f9dce294aafa96615d3130bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/save_point_anim_strip_9.png using Guid(2bc74288f9dce294aafa96615d3130bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47552f9e7cb0baea72b26b0daf5ca5e6') in 0.069844 seconds
+  Import took 0.076095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/coin_anim_strip_6.png
+  artifactKey: Guid(1287a6ea4319dd44da3f17bd16768dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/coin_anim_strip_6.png using Guid(1287a6ea4319dd44da3f17bd16768dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f2ef2453f3a537b079ac8c2c9b8004') in 0.048103 seconds
+  Import took 0.067580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/save_point_saving_anim_strip_3.png
+  artifactKey: Guid(ce1d321c52a11c74c980bff88118fd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/save_point_saving_anim_strip_3.png using Guid(ce1d321c52a11c74c980bff88118fd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e192b09b6f91d9706bcdae15e3e173') in 0.050544 seconds
+  Import took 0.054281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/drygrass_props.png
+  artifactKey: Guid(ff99cb426b1a7724fb7786a4068da78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/drygrass_props.png using Guid(ff99cb426b1a7724fb7786a4068da78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0138a1939f84048d883eaa152813d7') in 0.052046 seconds
+  Import took 0.056082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/trap_suspended_anim_strip_18.png
+  artifactKey: Guid(624389dcb3dcce142b38fcc2c325d6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/trap_suspended_anim_strip_18.png using Guid(624389dcb3dcce142b38fcc2c325d6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8240d8b5803778a0d76e793e5f68d8c') in 0.050062 seconds
+  Import took 0.053775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/orb_anim.gif
+  artifactKey: Guid(0b95ed32a956fc244909d49dfa4fb938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/orb_anim.gif using Guid(0b95ed32a956fc244909d49dfa4fb938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b172bf98a360fb77184ef78bcaace64') in 0.055066 seconds
+  Import took 0.059046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/vase_breaking_anim_strip_5.png
+  artifactKey: Guid(d037fabed4364cf40b174c7a6e794438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/vase_breaking_anim_strip_5.png using Guid(d037fabed4364cf40b174c7a6e794438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdb5c79f02cb151cc2fe7ce3c3c2368') in 0.047824 seconds
+  Import took 0.051837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/loot_box_anim_opening_strip_6.png
+  artifactKey: Guid(46614316f67df754dbe9fffde76e9f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/loot_box_anim_opening_strip_6.png using Guid(46614316f67df754dbe9fffde76e9f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c782bf1214333f0f7229c48873ece364') in 0.050335 seconds
+  Import took 0.055338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/loot_box_anim_opening.gif
+  artifactKey: Guid(f5e19f916bafeda47998f6b5a0787ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/loot_box_anim_opening.gif using Guid(f5e19f916bafeda47998f6b5a0787ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c114b6b865d6763f88fd09694f93af9') in 0.047620 seconds
+  Import took 0.051729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/flowers_props.png
+  artifactKey: Guid(43d4ac233239e9c46aeaecd3244f5f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/flowers_props.png using Guid(43d4ac233239e9c46aeaecd3244f5f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9a73946fd4aa5cf225f46c36890f05') in 0.019599 seconds
+  Import took 0.023888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/tiki_torch_props.asset
+  artifactKey: Guid(6ab55befc3100a74198ef102928b34a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/tiki_torch_props.asset using Guid(6ab55befc3100a74198ef102928b34a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892a562d23a858d4ca69d9625ac38088') in 0.031392 seconds
+  Import took 0.035897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/explosion_anim_strip_10.png
+  artifactKey: Guid(e3df221d16a0f96489adaab45b62c46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/explosion_anim_strip_10.png using Guid(e3df221d16a0f96489adaab45b62c46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d47907e4193b6a41f4e359d035b064') in 0.060968 seconds
+  Import took 0.066754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/health_potion.png
+  artifactKey: Guid(c0471c002e9a40240ab4675d813bfdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/health_potion.png using Guid(c0471c002e9a40240ab4675d813bfdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92f46d5c270a656724095f116d87b9c') in 0.042761 seconds
+  Import took 0.048204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/grass_props.png
+  artifactKey: Guid(d329062c0ab9f2d46b0c3960f236b308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/grass_props.png using Guid(d329062c0ab9f2d46b0c3960f236b308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2f198ccc4f24c5d16820f4da8a669b') in 0.029369 seconds
+  Import took 0.034525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/orb_anim_strip_6.png
+  artifactKey: Guid(9d9546dff0962ff4787f1c9ce2c82ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/orb_anim_strip_6.png using Guid(9d9546dff0962ff4787f1c9ce2c82ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ab7374c616ec781c5dad61e6c6ee47') in 0.048767 seconds
+  Import took 0.057919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/spikes.png
+  artifactKey: Guid(e2e0ed4a49a16e04dac552626a930254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/spikes.png using Guid(e2e0ed4a49a16e04dac552626a930254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7b5b3a3b7ca0a506a082ff89e1ebb1') in 0.056591 seconds
+  Import took 0.062108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/wood_slab_right.png
+  artifactKey: Guid(00d00f4361914f8489af1cb549417a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/wood_slab_right.png using Guid(00d00f4361914f8489af1cb549417a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95c527b5b896c8949cdb8c96e505404') in 0.102417 seconds
+  Import took 0.109690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/door.asset
+  artifactKey: Guid(39def1d6a9de2734c8cf2b953edf1d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/door.asset using Guid(39def1d6a9de2734c8cf2b953edf1d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1962c6649d1440793791305c7c35f0e') in 0.039181 seconds
+  Import took 0.046498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/coin_pickup_anim_strip_6.png
+  artifactKey: Guid(8570b7458658e1e45bec3607695e9e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/coin_pickup_anim_strip_6.png using Guid(8570b7458658e1e45bec3607695e9e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5204bc061b3dbf829501ceec52fd4832') in 0.083007 seconds
+  Import took 0.092712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/lever_turned_left.png
+  artifactKey: Guid(f87282d9eb58fa640a2f7eb50bc16167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/lever_turned_left.png using Guid(f87282d9eb58fa640a2f7eb50bc16167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13009a1791b7614cb02792f1b53f91a0') in 0.050857 seconds
+  Import took 0.055427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/stone.png
+  artifactKey: Guid(125139309770f414da4768c9b7c03a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/stone.png using Guid(125139309770f414da4768c9b7c03a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb85884de9ace190089e6291e6c4414') in 0.084987 seconds
+  Import took 0.088690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/strange_door_closed_anim_strip_10.png
+  artifactKey: Guid(2e67b2efcdd3d9945a489e21f5f2b07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/strange_door_closed_anim_strip_10.png using Guid(2e67b2efcdd3d9945a489e21f5f2b07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67c897d83011ca3f7b988dbeb483ad9') in 0.070328 seconds
+  Import took 0.076415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/arrow_plate_right.png
+  artifactKey: Guid(464d1cb62631c3b448612a9f9c156869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/arrow_plate_right.png using Guid(464d1cb62631c3b448612a9f9c156869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e257bb958e9d6d5de17fb3e7ca91b02') in 0.065578 seconds
+  Import took 0.190931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/spikes_trap_hit_wall_dust_effect_strip_3.png
+  artifactKey: Guid(155cabab6904b8a439b5262d56f550c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/spikes_trap_hit_wall_dust_effect_strip_3.png using Guid(155cabab6904b8a439b5262d56f550c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6759d755ee363dc65fd4042995d4055f') in 0.120490 seconds
+  Import took 0.130334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/lever_turned_right.png
+  artifactKey: Guid(5fd68f2527f5ceb48afc3852b1bf1a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/lever_turned_right.png using Guid(5fd68f2527f5ceb48afc3852b1bf1a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0f67c4a77f1411bdc3bfd39105867c') in 0.079747 seconds
+  Import took 0.112843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/trap_spikes_anim_strip_7.png
+  artifactKey: Guid(30c4b723d0237984292ee3a931dfd67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/trap_spikes_anim_strip_7.png using Guid(30c4b723d0237984292ee3a931dfd67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c481f023992e85a5d2be6bcbe5a2c12') in 0.132911 seconds
+  Import took 0.152735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/loot_box_open.png
+  artifactKey: Guid(9078d6c6404e28b44a95974256b72d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/loot_box_open.png using Guid(9078d6c6404e28b44a95974256b72d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63fd0c23c5951d1308e8d99d1a6874b7') in 0.080129 seconds
+  Import took 0.086108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/grass_props.asset
+  artifactKey: Guid(d3bd9a4c8e226ca4aad85b9871a007df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/grass_props.asset using Guid(d3bd9a4c8e226ca4aad85b9871a007df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf593257115423cc1c681ac8629667d0') in 0.088266 seconds
+  Import took 0.093755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/bomb_on_ground_anim_strip_8.png
+  artifactKey: Guid(08e59cabcac32f044b6336859d42fafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/miscellaneous sprites/bomb_on_ground_anim_strip_8.png using Guid(08e59cabcac32f044b6336859d42fafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d7c03a86bd17f9a5293984708abfc7') in 0.144501 seconds
+  Import took 0.169803 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001464 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.398 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2332.
+Total: 3.908000 ms (FindLiveObjects: 0.427700 ms CreateObjectMapping: 0.215500 ms MarkObjects: 3.102700 ms  DeleteObjects: 0.159500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.344782 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/herochar sprites(new)/herochar_sword_attack_anim_strip_4.png
+  artifactKey: Guid(f2c4b0ecadf8ef14e9434bdf4571d71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/herochar sprites(new)/herochar_sword_attack_anim_strip_4.png using Guid(f2c4b0ecadf8ef14e9434bdf4571d71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6241fda7983ec5207a437d774fe6d4f8') in 0.079239 seconds
+  Import took 0.084774 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001432 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.366 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2336.
+Total: 4.135600 ms (FindLiveObjects: 0.429900 ms CreateObjectMapping: 0.175400 ms MarkObjects: 3.367300 ms  DeleteObjects: 0.160800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.003898 seconds.
+  path: Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/herochar sprites(new)/herochar_sword_attack_anim_strip_4.png
+  artifactKey: Guid(f2c4b0ecadf8ef14e9434bdf4571d71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platform_metroidvania asset pack v1.01/platform_metroidvania asset pack v1.01/herochar sprites(new)/herochar_sword_attack_anim_strip_4.png using Guid(f2c4b0ecadf8ef14e9434bdf4571d71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e994d1f8ba6a26c8638099203542dac') in 0.072292 seconds
+  Import took 0.076482 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003921 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.329 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2340.
+Total: 4.259000 ms (FindLiveObjects: 0.430700 ms CreateObjectMapping: 0.166800 ms MarkObjects: 3.486500 ms  DeleteObjects: 0.172300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001425 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.413 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2343.
+Total: 4.254000 ms (FindLiveObjects: 0.577700 ms CreateObjectMapping: 0.209200 ms MarkObjects: 3.307300 ms  DeleteObjects: 0.157700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001677 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.450 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.2 MB.
+System memory in use after: 89.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2346.
+Total: 3.818900 ms (FindLiveObjects: 0.392900 ms CreateObjectMapping: 0.127700 ms MarkObjects: 3.089800 ms  DeleteObjects: 0.205900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002992 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.296 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.3 MB.
+System memory in use after: 89.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2349.
+Total: 4.161300 ms (FindLiveObjects: 0.417800 ms CreateObjectMapping: 0.162800 ms MarkObjects: 3.410800 ms  DeleteObjects: 0.166900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001359 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.376 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2352.
+Total: 4.128700 ms (FindLiveObjects: 0.391300 ms CreateObjectMapping: 0.151900 ms MarkObjects: 3.401300 ms  DeleteObjects: 0.181800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002378 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.143 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.5 MB.
+System memory in use after: 89.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2355.
+Total: 4.586200 ms (FindLiveObjects: 0.428200 ms CreateObjectMapping: 0.177600 ms MarkObjects: 3.805000 ms  DeleteObjects: 0.172400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001352 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.285 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.6 MB.
+System memory in use after: 89.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2358.
+Total: 4.174400 ms (FindLiveObjects: 0.428200 ms CreateObjectMapping: 0.166400 ms MarkObjects: 3.395700 ms  DeleteObjects: 0.181600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002204 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.162 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1784 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.4 MB.
-System memory in use after: 84.4 MB.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.7 MB.
+System memory in use after: 89.7 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2235.
-Total: 3.946600 ms (FindLiveObjects: 0.531500 ms CreateObjectMapping: 0.204200 ms MarkObjects: 3.039700 ms  DeleteObjects: 0.168800 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2361.
+Total: 3.655600 ms (FindLiveObjects: 0.379100 ms CreateObjectMapping: 0.135900 ms MarkObjects: 2.970300 ms  DeleteObjects: 0.167200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002421 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.261 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.8 MB.
+System memory in use after: 89.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2364.
+Total: 4.134800 ms (FindLiveObjects: 0.486800 ms CreateObjectMapping: 0.178200 ms MarkObjects: 3.298400 ms  DeleteObjects: 0.167000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001414 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.786 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.9 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2367.
+Total: 3.696000 ms (FindLiveObjects: 0.404600 ms CreateObjectMapping: 0.123300 ms MarkObjects: 2.895200 ms  DeleteObjects: 0.270700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001382 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.367 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.9 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2370.
+Total: 4.013000 ms (FindLiveObjects: 0.467300 ms CreateObjectMapping: 0.175500 ms MarkObjects: 3.134900 ms  DeleteObjects: 0.232800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001489 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.426 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2373.
+Total: 4.004100 ms (FindLiveObjects: 0.409600 ms CreateObjectMapping: 0.160400 ms MarkObjects: 3.260600 ms  DeleteObjects: 0.170800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001364 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.250 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2376.
+Total: 4.223800 ms (FindLiveObjects: 0.438200 ms CreateObjectMapping: 0.147000 ms MarkObjects: 3.455700 ms  DeleteObjects: 0.180100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002280 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.217 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.2 MB.
+System memory in use after: 89.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2379.
+Total: 3.827400 ms (FindLiveObjects: 0.389900 ms CreateObjectMapping: 0.137500 ms MarkObjects: 3.123900 ms  DeleteObjects: 0.173500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001890 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.314 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.3 MB.
+System memory in use after: 89.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2382.
+Total: 4.198100 ms (FindLiveObjects: 0.370900 ms CreateObjectMapping: 0.168700 ms MarkObjects: 3.491700 ms  DeleteObjects: 0.164500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001998 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.520 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2385.
+Total: 4.593300 ms (FindLiveObjects: 0.988800 ms CreateObjectMapping: 0.201900 ms MarkObjects: 3.219000 ms  DeleteObjects: 0.180300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002090 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.646 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1785 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.5 MB.
+System memory in use after: 89.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2388.
+Total: 9.724300 ms (FindLiveObjects: 0.388400 ms CreateObjectMapping: 0.216200 ms MarkObjects: 8.918800 ms  DeleteObjects: 0.195700 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
