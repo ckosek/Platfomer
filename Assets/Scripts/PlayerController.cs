@@ -218,6 +218,11 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public int GetFacingDir()
+    {
+        return dirFacing;
+    }
+
 
     private void OnDrawGizmos()
     {
